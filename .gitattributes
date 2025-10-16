@@ -11,6 +11,7 @@
 *.tga filter=lfs diff=lfs merge=lfs -text linguist-documentatio
 *.tiff filter=lfs diff=lfs merge=lfs -text linguist-documentatio
 *.exr filter=lfs diff=lfs merge=lfs -text linguist-documentatio
+*.terrainlayer linguist-documentation
 
 # 音频文件
 *.wav filter=lfs diff=lfs merge=lfs -text
