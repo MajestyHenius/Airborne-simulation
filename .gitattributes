@@ -1,29 +1,61 @@
 # 3D模型格式
-*.fbx filter=lfs diff=lfs merge=lfs -text
-*.obj filter=lfs diff=lfs merge=lfs -text
-*.blend filter=lfs diff=lfs merge=lfs -text
-*.max filter=lfs diff=lfs merge=lfs -text
-*.ma filter=lfs diff=lfs merge=lfs -text
-*.mb filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text -documentation
+*.obj filter=lfs diff=lfs merge=lfs -text -documentation
+*.blend filter=lfs diff=lfs merge=lfs -text -documentation
+*.max filter=lfs diff=lfs merge=lfs -text -documentation
+*.ma filter=lfs diff=lfs merge=lfs -text -documentation
+*.mb filter=lfs diff=lfs merge=lfs -text -documentation
 
 # 纹理和图片
-*.psd filter=lfs diff=lfs merge=lfs -text
-*.tga filter=lfs diff=lfs merge=lfs -text
-*.tiff filter=lfs diff=lfs merge=lfs -text
-*.exr filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text -documentation
+*.tga filter=lfs diff=lfs merge=lfs -text -documentation
+*.tiff filter=lfs diff=lfs merge=lfs -text -documentation
+*.exr filter=lfs diff=lfs merge=lfs -text -documentation
 
 # 音频文件
-*.wav filter=lfs diff=lfs merge=lfs -text
-*.aif filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text -documentation
+*.aif filter=lfs diff=lfs merge=lfs -text -documentation
 
 # 视频文件
-*.mp4 filter=lfs diff=lfs merge=lfs -text
-*.mov filter=lfs diff=lfs merge=lfs -text
-*.avi filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text -documentation
+*.mov filter=lfs diff=lfs merge=lfs -text -documentation
+*.avi filter=lfs diff=lfs merge=lfs -text -documentation
 
 # Unity资源文件
-*.asset filter=lfs diff=lfs merge=lfs -text
-*.prefab filter=lfs diff=lfs merge=lfs -text
+*.asset filter=lfs diff=lfs merge=lfs -text -documentation
+*.prefab filter=lfs diff=lfs merge=lfs -text -documentation
 
 # 其他二进制文件
-*.unitypackage filter=lfs diff=lfs merge=lfs -text
+*.unitypackage filter=lfs diff=lfs merge=lfs -text -documentation
+
+# Shader 文件
+*.shader linguist-documentation
+*.compute linguist-documentation
+*.cginc linguist-documentation
+*.hlsl linguist-documentation
+*.glslinc linguist-documentation
+
+# Unity 材质和动画
+*.mat linguist-documentation
+*.controller linguist-documentation
+*.anim linguist-documentation
+*.mask linguist-documentation
+
+# 物理材质
+*.physicsMaterial linguist-documentation
+*.physicsMaterial2D linguist-documentation
+
+# 其他 Unity 特定文件
+*.cubemap linguist-documentation
+*.flare linguist-documentation
+*.fontsettings linguist-documentation
+*.guiskin linguist-documentation
+*.terrainlayer linguist-documentation
+
+# 标记生成文件
+*.meta linguist-generated
+ProjectSettings/* linguist-generated
+UserSettings/* linguist-generated
+Library/* linguist-generated
+Temp/* linguist-generated
+Builds/* linguist-generated
