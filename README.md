@@ -62,5 +62,6 @@ The simulation uses Unity's physics engine for ray casting and implements realis
 ## Note
 
 This project simulates airborne LiDAR scanning patterns and is designed for research and educational purposes in point cloud data generation and analysis.
+
 ![image](https://github.com/user-attachments/assets/ef20bc07-d93f-40b7-945b-9af4894e65cc)
 
