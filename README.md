@@ -5,7 +5,7 @@ This is a Unity3D simulation project for airborne push-broom LiDAR point cloud i
 
 This simulation models an airborne LiDAR system that scans targets and generates point cloud data. The system allows parameter configuration for various scanning scenarios and exports the collected point cloud data for analysis and recognition.
 
-![image](https://github.com/user-attachments/assets/231431cd-571c-404b-a08b-4192d687537f)
+<img width="854" height="681" alt="Airborne" src="https://github.com/user-attachments/assets/5b61f321-cc9c-4e87-8704-73547b957df3" />
 
 ## Key Features
 
