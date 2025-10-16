@@ -26,7 +26,15 @@ public class Inputtext : MonoBehaviour
     {
 
         gotstr = inp;
-        got = float.Parse(inp.ToString());
+        if (!string.IsNullOrEmpty(inp))
+        {
+            float tempValue;
+            if (float.TryParse(inp, out tempValue))
+            {
+                got = tempValue;
+            }
+            // 如果解析失败，got 保持原值不变
+        }
 
     }
 
