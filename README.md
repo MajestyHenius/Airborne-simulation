@@ -134,5 +134,5 @@ You are free to use and modify it for research and educational purposes with pro
 
 > ✨ _Placeholder figures (1–4) can later be replaced with architecture, FOV, UML, and data output diagrams for publication use._
 ## 🇨🇳 中文简介
-这是一个基于 Unity 的机载激光雷达仿真项目，用于点云数据生成与分析。
+这是一个基于 Unity 的机载/弹载激光雷达仿真项目，用于指定交会姿态下的点云数据生成与分析。
 支持多线束扫描、参数化设置与自动导出。
