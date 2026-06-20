@@ -1,4 +1,4 @@
-# 🛰️ Airborne LiDAR Simulation System  
+# 🛰️ Airborne LiDAR Simulation System  (Push-broom)
 _A Unity-based simulation framework for airborne LiDAR scanning, point cloud generation, and data export._
 
 ---
